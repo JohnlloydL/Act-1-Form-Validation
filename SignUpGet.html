@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="SignUp.css">
+</head>
+<body>
+   
+    <h2>User Registration Form</h2>
+    <form action="SignUpGet.php" method="GET">
+        <label for="getName">Name:</label>
+        <input type="text" id="getName" name="name" required>
+        
+        <label for="getEmail">Email:</label>
+        <input type="email" id="getEmail" name="email" required>
+        
+        <label for="getPassword">Password:</label>
+        <input type="password" id="getPassword" name="password" required>
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
